@@ -1,0 +1,485 @@
+Welcome to Mastermind!
+Please type "PLAY" to start the game,
+or type "INSTRUCTIONS" to learn the rules of the game!
+Enjoy!
+
+INSTRUCTIONS
+Game Instruction
+Step 1: The game will randomly generate four coloured pins.
+Step 2: The codebreaker would have to guess all the pins' respective order and colour to win the game.
+Step 3: There will be a total of 12 guess attempts.
+Step 3: Each guess with both the correct order and the colour of the pins would return a red flag.
+Step 4: Each guess with the wrong order, but the correct colour of the pins would return a white flag.
+Step 5: Each guess with both incorrect order and colour of the pins would return a dash.
+Step 6: Failure to guess the correct pins within 12 attempts would result in a loss.
+h3566233@academy11:~/Desktop/COMP2113 Project Chris and Toby$ ./game_main
+Welcome to Mastermind!
+Please type "PLAY" to start the game,
+or type "INSTRUCTIONS" to learn the rules of the game!
+Enjoy!
+
+PLAY
+
+Do you want to start a new game?
+YES for new game, NO to open an existing game
+YES
+
+Enter your guesses in this format: 
+R B G Y
+Note that this is different from:B G Y R
+since the position of colours matter.
+
+You can type "S" during guess input to save your game,
+but please do not save when you have not made a guess.
+Saving will end your game.
+
+Key:
+"R" for Red, "B" for Blue, "G" for Green
+"Y" for Yellow, "P" for Purple, "O" for Orange
+
+P.S. Don't forget, position matters!
+
+
+
+  GUESSES    FLAGS   
+---------------------
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 0 / 12
+Insert Your Guess: 
+RBGY
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 1 / 12
+Insert Your Guess: 
+BGYR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 2 / 12
+Insert Your Guess: 
+S
+h3566233@academy11:~/Desktop/COMP2113 Project Chris and Toby$ ./game_main
+Welcome to Mastermind!
+Please type "PLAY" to start the game,
+or type "INSTRUCTIONS" to learn the rules of the game!
+Enjoy!
+
+PLAY
+
+Do you want to start a new game?
+YES for new game, NO to open an existing game
+NO
+
+Enter your guesses in this format: 
+R B G Y
+Note that this is different from:B G Y R
+since the position of colours matter.
+
+You can type "S" during guess input to save your game,
+but please do not save when you have not made a guess.
+Saving will end your game.
+
+Key:
+"R" for Red, "B" for Blue, "G" for Green
+"Y" for Yellow, "P" for Purple, "O" for Orange
+
+P.S. Don't forget, position matters!
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 2 / 12
+Insert Your Guess: 
+GYRP
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 3 / 12
+Insert Your Guess: 
+YRPO
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 4 / 12
+Insert Your Guess: 
+BRRP
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 5 / 12
+Insert Your Guess: 
+RYRP
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+| R Y R P | R W - - |  Guess 6
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 6 / 12
+Insert Your Guess: 
+GGYP
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+| R Y R P | R W - - |  Guess 6
+| G G Y P | R R W - |  Guess 7
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 7 / 12
+Insert Your Guess: 
+GOYP
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+| R Y R P | R W - - |  Guess 6
+| G G Y P | R R W - |  Guess 7
+| G O Y P | R W - - |  Guess 8
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 8 / 12
+Insert Your Guess: 
+GGPG
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+| R Y R P | R W - - |  Guess 6
+| G G Y P | R R W - |  Guess 7
+| G O Y P | R W - - |  Guess 8
+| G G P G | R R - - |  Guess 9
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 9 / 12
+Insert Your Guess: 
+GGBY
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R B G Y | R W W - |  Guess 1
+| B G Y R | R W W - |  Guess 2
+| G Y R P | R R W - |  Guess 3
+| Y R P O | W W - - |  Guess 4
+| B R R P | R - - - |  Guess 5
+| R Y R P | R W - - |  Guess 6
+| G G Y P | R R W - |  Guess 7
+| G O Y P | R W - - |  Guess 8
+| G G P G | R R - - |  Guess 9
+| G G B Y | R R R - |  Guess 10
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 10 / 12
+Insert Your Guess: 
+GGRY
+Congratulations! You have found the solution: 
+[ G G R Y ]
+Guesses taken: 11
+h3566233@academy11:~/Desktop/COMP2113 Project Chris and Toby$ ./game_main
+Welcome to Mastermind!
+Please type "PLAY" to start the game,
+or type "INSTRUCTIONS" to learn the rules of the game!
+Enjoy!
+
+PLAY
+
+Do you want to start a new game?
+YES for new game, NO to open an existing game
+YES
+
+Enter your guesses in this format: 
+R B G Y
+Note that this is different from:B G Y R
+since the position of colours matter.
+
+You can type "S" during guess input to save your game,
+but please do not save when you have not made a guess.
+Saving will end your game.
+
+Key:
+"R" for Red, "B" for Blue, "G" for Green
+"Y" for Yellow, "P" for Purple, "O" for Orange
+
+P.S. Don't forget, position matters!
+
+
+
+  GUESSES    FLAGS   
+---------------------
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 0 / 12
+Insert Your Guess: 
+RRRR 
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 1 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 2 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 3 / 12
+Insert Your Guess: 
+RRRR
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 4 / 12
+Insert Your Guess: 
+
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 5 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 6 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+| R R R R | R R R - |  Guess 7
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 7 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+| R R R R | R R R - |  Guess 7
+| R R R R | R R R - |  Guess 8
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 8 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+| R R R R | R R R - |  Guess 7
+| R R R R | R R R - |  Guess 8
+| R R R R | R R R - |  Guess 9
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 9 / 12
+Insert Your Guess: 
+RRRR
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+| R R R R | R R R - |  Guess 7
+| R R R R | R R R - |  Guess 8
+| R R R R | R R R - |  Guess 9
+| R R R R | R R R - |  Guess 10
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 10 / 12
+Insert Your Guess: 
+RRRR
+
+
+
+  GUESSES    FLAGS   
+---------------------
+| R R R R | R R R - |  Guess 1
+| R R R R | R R R - |  Guess 2
+| R R R R | R R R - |  Guess 3
+| R R R R | R R R - |  Guess 4
+| R R R R | R R R - |  Guess 5
+| R R R R | R R R - |  Guess 6
+| R R R R | R R R - |  Guess 7
+| R R R R | R R R - |  Guess 8
+| R R R R | R R R - |  Guess 9
+| R R R R | R R R - |  Guess 10
+| R R R R | R R R - |  Guess 11
+---------------------
+Key: R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange
+Flag: R = right position and colour, W = right colour but wrong colour
+Guesses: 11 / 12
+Insert Your Guess: 
+RRRR
+Game Over. The correct Solution was: 
+[ R R Y R ]
+Guesses taken: 12
+h3566233@academy11:~/Desktop/COMP2113 Project Chris and Toby$ 
