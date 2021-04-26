@@ -89,9 +89,9 @@ int main() {
     }
     cout << endl;
     cout << "Enter your guesses in this format: " << endl;
-    cout << "R B G Y" << endl;
-    cout << "Note that this is different from:"
-    cout << "B G Y R" << endl;
+    cout << "RBGY" << endl;
+    cout << "Note that this is different from:" << endl;
+    cout << "BGYR" << endl;
     cout << "since the position of colours matter." << endl;
     cout << endl;
     cout << "You can type \"S\" during guess input to save your game," << endl;
